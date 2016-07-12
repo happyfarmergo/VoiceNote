@@ -1,0 +1,30 @@
+<com.wangjie.rapidfloatingactionbutton.RapidFloatingActionLayout xmlns:rfal="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_rfal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    rfal:rfal_frame_color="#ffffff"
+    rfal:rfal_frame_alpha="0.7">
+
+    <com.wangjie.rapidfloatingactionbutton.RapidFloatingActionButton
+        xmlns:rfab="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:padding="8dp"
+        app:rippleColor="#ffffff"
+        rfab:rfab_size="normal"
+        rfab:rfab_drawable="@android:drawable/ic_input_add"
+        rfab:rfab_color_normal="#24a4e9"
+        rfab:rfab_color_pressed="#115f86"
+        rfab:rfab_shadow_radius="7dp"
+        rfab:rfab_shadow_color="#999999"
+        rfab:rfab_shadow_dx="0dp"
+        rfab:rfab_shadow_dy="5dp"
+        />
+</com.wangjie.rapidfloatingactionbutton.RapidFloatingActionLayout>

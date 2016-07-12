@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group0"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_32dp"
+            android:title="@string/home" />
+    </group>
+
+    <item
+        android:id="@+id/group1"
+        android:title="@string/nav_view_title">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_calender"
+                android:icon="@drawable/ic_calender_32dp"
+                android:title="@string/calender_view" />
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_helper"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="@string/helper" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_setting_32dp"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_32dp"
+            android:title="@string/about" />
+    </group>
+</menu>

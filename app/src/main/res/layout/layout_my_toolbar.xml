@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/pure_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/img_btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pure_white"
+        android:src="@drawable/ic_ok_24dp" />
+
+    <ImageButton
+        android:id="@+id/img_btn_clock"
+        android:alpha="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_clock_32dp"
+        android:backgroundTint="@color/pure_white"
+        android:layout_toLeftOf="@+id/img_btn_detail"
+        />
+
+    <ImageButton
+        android:id="@+id/img_btn_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_about_32dp"
+        android:backgroundTint="@color/pure_white"
+        android:layout_toLeftOf="@+id/img_btn_share"
+        />
+
+    <ImageButton
+        android:id="@+id/img_btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share_32dp"
+        android:backgroundTint="@color/pure_white"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

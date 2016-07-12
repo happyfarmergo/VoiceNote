@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">VoiceNote</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="home">主页</string>
+    <string name="nav_view_title">查看</string>
+    <string name="history_view">历史视图</string>
+    <string name="calender_view">日历视图</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+
+    <string name="btn_camera">拍照</string>
+    <string name="btn_clock">提醒</string>
+    <string name="btn_text">文本</string>
+
+    <string name="edit_clock_hint">写点什么...</string>
+
+    <string name="app_id">573317cb</string>
+    <string name="title_activity_home_page_frag">VoiceNote</string>
+
+    <string name="notify_title">主人，您的闹钟又响了哦</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_note">NoteActivity</string>
+
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="Share">share</string>
+    <string name="detail">detail</string>
+    <string name="hint_title">edit title</string>
+    <string name="hint_content">now, write anything...</string>
+    <string name="text_begin">开始听写</string>
+    <string name="pref_title_set_alarm">提醒方式</string>
+    <string name="pref_sum_set_alarm">请选择提醒的方式~</string>
+    <string name="pref_title_select_language">语言</string>
+    <string name="pref_sum_select_language">请选择识别语言~</string>
+    <string name="pref_title_set_name">用户名</string>
+    <string name="pref_sum_set_name">请写下您的大名~</string>
+    <string name="popup_title_cancel">取消提醒</string>
+    <string name="popup_title_clock">设置闹钟</string>
+    <string name="voice_speak">语音</string>
+    <string name="helper">语音助手</string>
+
+    <string-array name="pref_alarm_titles">
+        <item>Notification</item>
+        <item>Alarm</item>
+    </string-array>
+
+    <string-array name="pref_alarm_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="pref_lang_titles">
+        <item>汉语</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="pref_lang_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="title_activity_voice">VoiceActivity</string>
+
+</resources>
